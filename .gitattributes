@@ -1,0 +1,11 @@
+# Ignore arquivos de configuração, build, ou ferramentas
+*.lock linguist-vendored
+*.json linguist-vendored
+*.yaml linguist-vendored
+*.yml linguist-vendored
+*.md linguist-documentation
+*.env linguist-vendored
+*.ts linguist-language=TypeScript
+/path-to-build-folder/** linguist-vendored
+/node_modules/* linguist-vendored
+
